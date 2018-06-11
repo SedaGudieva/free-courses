@@ -8,6 +8,6 @@ for(var i=0; i<s.length; i++){
     }
 } 
 var str = arr.join('');
-console.log(str);
+process.stdout.write(str);
 }
 /* Put your code here */
