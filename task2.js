@@ -1,14 +1,7 @@
 /* Task 2 */
 var a=process.argv[2];
 var b=process.argv[3];
-
-if(b.length >= 10000){
-    return false;
-} 
-
-if(a.length <= 1){
-    return false;
-}  
+ 
 if(a.length != b.length){
     return process.stdout.write( '-1' );
 } 
